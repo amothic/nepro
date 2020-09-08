@@ -22,7 +22,7 @@ var explainCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		fmt.Println(resp)
+		fmt.Println(string(resp))
 		return nil
 	},
 }
